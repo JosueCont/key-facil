@@ -1,0 +1,88 @@
+.container-app{
+  display: flex;
+  flex-direction: row;
+}
+.container{
+  background-color: blue;
+  height: 100%;
+  width: 30%; 
+}
+.cont{
+  width: 100%;
+  background-color: rgba(240, 233, 233, 0.973);
+  padding-left: 20px;
+}
+.container-estadistic{
+  margin-top:20;
+  display: flex;
+ justify-content: center;
+}
+.btn-stadistic{
+  flex-direction: row;
+  display: flex;
+  width: 300px;
+  height: 75px;
+  padding: 5px 15px;
+  background-color: rgb(47, 255, 64);
+  border-color: rgb(47, 255, 64);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.btn-stadistic img{
+  width: 30px;
+  height: 30px;
+  align-self: center
+}
+.label-btn{
+  margin-left: 10px;
+  color: white;
+  font-size: 15px;
+  align-self: center
+}
+.cont-flow{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right:15px;
+  display: flex;
+  flex-wrap: wrap
+}
+.btn-flow{
+  width: 44%;
+  height: 100px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.img-flow{
+  width: 30px;
+  height: 30px;
+  padding-bottom: 5px;
+}
+.btn-flow.Rv{
+  background-color: green;
+  border: none
+}
+.btn-flow.Vr{
+  background-color: rgb(47, 255, 75);
+  border: none
+}
+.btn-flow.Gr{
+  background-color: purple;
+  border: none
+}
+.btn-flow.Pr{
+  background-color: crimson;
+  border:none
+}
+.do-sell{
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+}

@@ -1,0 +1,52 @@
+
+.headerCont{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.imgHeader{
+  height: 100%;
+}
+.cont-imageUser{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.imgUser{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.select-wrap{ 
+  padding: 0 5px; 
+  position: relative;
+  margin: 0 20px;
+}
+.select-wrap label.lbl-select{
+  font-size: 13px;
+  text-transform: uppercase;
+  color:white;
+  padding: 0 8px;
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  padding: 0 10px;
+}
+select.name-company{
+  background-color: slateblue;
+  border-color: slateblue;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  width:  330px;
+  height: 45px;
+}
+.lbl-option{
+  padding: 100px 10px;
+}
