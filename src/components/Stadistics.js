@@ -8,7 +8,7 @@ import HeaderCont from './HeaderCont';
 export default class Stadistics extends React.Component {
   render() {
     return (
-      <>
+      <div style={{flex:1,marginLeft:15}}> 
         <h3>Estadisticas</h3>
         <div className="cont-emisiones">
           <div className="cont-header">
@@ -34,7 +34,7 @@ export default class Stadistics extends React.Component {
             <LineChart />
           </div> 
         </div>
-      </>
+      </div>
     );
   }
 }

@@ -4,6 +4,8 @@ import NavBar from "./components/NavBar";
 import logo from "./assets/logo192.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Stadistics from "./components/Stadistics";
+import Invoice from './components/Invoice';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
@@ -63,12 +65,14 @@ function App() {
         <div className="cont" >
           <Switch>
             <Route path="/" exact>
-              Inicio
+              <Welcome />
             </Route>
             <Route path="/estadisticas">
               <Stadistics />
             </Route>
-            <Route path="/invoice">Realizar venta</Route>
+            <Route path="/invoice">
+              <Invoice />
+            </Route>
           </Switch>
         </div>
       </div>

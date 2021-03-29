@@ -1,0 +1,51 @@
+.cont-cards{
+  height: 400px;
+  overflow-y: scroll;
+  background-color: white;
+  white-space: nowrap;
+  position: absolute;
+  top:10px;
+  width: 69%;
+}
+.card{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+  flex: 1;
+}
+.img-card{
+  width: 100px;
+  height: 100%
+}
+.cont-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.cont-price{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+}
+.btn-stock{
+  width:100%;
+  height: 30%;
+  background-color: white;
+  border-color: rgba(28, 42, 245, 0.952);
+  color: rgba(28, 42, 245, 0.952);
+  border-radius: 5px;
+  border-width: 0.5px;
+}
+.lbl-price{
+  font-size: 15px;
+  color: green;
+}
+.lbl-description{
+  font-size: 15px;
+  color: gray;
+}

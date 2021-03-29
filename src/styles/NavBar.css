@@ -25,11 +25,10 @@
   position: relative;
   margin: 0 20px;
 }
-.select-wrap label.lbl-select{
+label.lbl-select{
   font-size: 13px;
   text-transform: uppercase;
   color:white;
-  padding: 0 8px;
   position: absolute;
   left: 10px;
   top: 4px;
@@ -44,7 +43,7 @@ select.name-company{
   padding-left: 10px;
   padding-top: 10px;
   text-transform: uppercase;
-  width:  330px;
+  width:  100%;
   height: 45px;
 }
 .lbl-option{
